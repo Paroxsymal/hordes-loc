@@ -24,7 +24,11 @@ const syllables = ['helm', 'stone', 'delra', 'void', 'doom', 'flesh', 'eye', 'so
   'arje', 'stris', 'andro', 'dae', 'lae', 'duirn', 'rienn', 'dysra', 'than', 'tilre', 'laeth', 'ilye', 'gaia', 'dya',
   'orc', 'thras', 'dhar', 'raeth', 'ylla', 'raer', 'dryr', 'vaen', 'morl', 'mell', 'gley', 'idra', 'pheia', 'dre',
   'phae', 'thye', 'ruth', 'mir', 'sauth', 'hammer', 'bow', 'spear', 'wind', 'raven', 'cape', 'ghost', 'deer', 'mage',
-  'glass', 'wolf', 'shade', 'stag', 'grim', 'wise', 'scum', 'bubble', 'skull', 'bone', 'blood']
+  'glass', 'wolf', 'shade', 'stag', 'grim', 'wise', 'scum', 'bubble', 'skull', 'bone', 'blood', 'aeth', 'vler', 'crim', 
+  'cult', 'inta', 'lure', 'ked', 'nua', 'kris', 'loch', 'env', 'rust', 'nuat', 'duat', 'tri', 'corr', 'lord', 'rast', 'shra', 
+  'dend', 'par', 'high', 'igno', 'incit', 'ding', 'flam', 'xep', 'nret', 'sud', 'kurn', 'sra', 'nas', 'grent', 'grun', 'shaf',
+  'krit', 'wad', 'neo', 'trin', 'rak', 'thren', 'yrig', 'off', 'vola', 'vio', 'dire', 'gene', 'trin', 'dast', 'zen', 'ocus',
+  'vile', 'voal', 'tork', 'merc', 'synt', 'tin', 'slem', 'foul', 'crint', 'raly', 'prino', 'grin', 'trent', 'modo', ]
 
 export const generate = (minSyl = 2, maxSyl = 6, maxLen = 8)=>{
   // generates a random name with a variable max length / syllable amount
